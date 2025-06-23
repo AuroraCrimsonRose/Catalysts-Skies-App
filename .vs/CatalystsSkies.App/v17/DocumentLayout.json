@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|solutionrelative:main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\flights_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|solutionrelative:ui\\flights_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\api.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|solutionrelative:api.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\login_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|solutionrelative:ui\\login_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\dashboard_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3C767848-5FE8-4611-A458-F07F2E9A0A1A}|CatalystsSkies.App.pyproj|solutionrelative:ui\\dashboard_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "api.py",
+              "DocumentMoniker": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\api.py",
+              "RelativeDocumentMoniker": "api.py",
+              "ToolTip": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\api.py",
+              "RelativeToolTip": "api.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-23T08:58:10.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "flights_ui.py",
+              "DocumentMoniker": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\flights_ui.py",
+              "RelativeDocumentMoniker": "ui\\flights_ui.py",
+              "ToolTip": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\flights_ui.py",
+              "RelativeToolTip": "ui\\flights_ui.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-23T07:16:59.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\Main.py",
+              "RelativeDocumentMoniker": "Main.py",
+              "ToolTip": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\Main.py",
+              "RelativeToolTip": "Main.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-23T07:14:45.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login_ui.py",
+              "DocumentMoniker": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\login_ui.py",
+              "RelativeDocumentMoniker": "ui\\login_ui.py",
+              "ToolTip": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\login_ui.py",
+              "RelativeToolTip": "ui\\login_ui.py",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-23T07:11:48.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dashboard_ui.py",
+              "DocumentMoniker": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\dashboard_ui.py",
+              "RelativeDocumentMoniker": "ui\\dashboard_ui.py",
+              "ToolTip": "C:\\Users\\Aurora\\source\\repos\\CatalystsSkies.App\\ui\\dashboard_ui.py",
+              "RelativeToolTip": "ui\\dashboard_ui.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-23T07:11:18.103Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
