@@ -1,6 +1,8 @@
 ﻿from dearpygui.dearpygui import *
 from ui.login_ui import show_login_ui
 from ui.dashboard_ui import show_dashboard_ui
+from simconnect_bridge import connect_to_sim, get_current_aircraft_data
+import time
 
 # App config
 APP_TITLE = "CATALYSTS Skies"

@@ -1,6 +1,8 @@
 ﻿# ui/dashboard_ui.py
 from dearpygui.dearpygui import *
 from ui.flights_ui import show_flights_ui
+from ui.user_ui import show_user_ui
+from ui.login_ui import login_state
 
 # Dummy data source
 def get_dashboard_stats():
@@ -45,4 +47,4 @@ def show_dashboard_ui(username=None, token=None):
 
             show_flights_ui()
             add_tab(label="Company")
-            add_tab(label="User")
+            show_user_ui(login_state["token"])
