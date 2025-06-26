@@ -4,10 +4,11 @@ import numpy as np
 import os
 import requests
 import hashlib
+from cat_logger import logger
+from config import DEBUG_OUTPUT, API_BASE_URL
 
 LOGO_PATH = os.path.abspath(os.path.join("assets", "logo.png"))
 FOOTER_PATH = os.path.abspath(os.path.join("assets", "footer.png"))
-API_BASE_URL = "http://localhost:8000/api"
 
 login_state = {
     "token": None,
@@ -23,11 +24,13 @@ def show_error_popup(tag: str, message: str):
         add_text(message, wrap=280)
         add_spacer(height=10)
         add_button(label="OK", width=270, callback=lambda: delete_item(tag))
+        if DEBUG_OUTPUT:
+            logger.error(f"Popup '{tag}' shown with message: {message}")
 
 
 def load_texture_from_file(path: str, tag: str):
     if not os.path.exists(path):
-        print(f"[Texture] File not found: {path}")
+        logger.error(f"[Texture] File '{path}' does not exist")
         return
     if does_item_exist(tag):
         return
@@ -36,15 +39,17 @@ def load_texture_from_file(path: str, tag: str):
         width, height = image.size
         pixel_data = np.asarray(image, dtype=np.uint8)
         if pixel_data.shape[2] != 4:
-            print(f"[Texture] Invalid image shape: {pixel_data.shape}")
+            if DEBUG_OUTPUT:
+                logger.warning(f"[Texture] Image '{path}' does not have an alpha channel, converting to RGBA")
             return
         normalized = pixel_data.astype(np.float32) / 255.0
         flat_data = normalized.flatten().tolist()
         with texture_registry():
             add_static_texture(width, height, flat_data, tag=tag)
-        print(f"[Texture] Loaded '{tag}' ({width}x{height})")
+        if DEBUG_OUTPUT:
+            logger.info(f"[Texture] Loaded '{tag}' from '{path}' ({width}x{height})")
     except Exception as e:
-        print(f"[Texture] Failed to load '{tag}': {e}")
+        logger.error(f"[Texture] Failed to load '{tag}' from '{path}': {e}")
 
 def _attempt_login(sender, app_data, user_data):
     username = get_value("login_username")

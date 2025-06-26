@@ -3,6 +3,8 @@ from dearpygui.dearpygui import *
 from ui.flights_ui import show_flights_ui
 from ui.user_ui import show_user_ui
 from ui.login_ui import login_state
+from config import DEBUG_OUTPUT
+from cat_logger import logger
 
 # Dummy data source
 def get_dashboard_stats():

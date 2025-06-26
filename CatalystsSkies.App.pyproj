@@ -22,8 +22,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="api.py" />
+    <Compile Include="cat_logger.py" />
     <Compile Include="config.py" />
     <Compile Include="database.py" />
+    <Compile Include="flight_data.py" />
     <Compile Include="main.py" />
     <Compile Include="simconnect_bridge.py" />
     <Compile Include="ui\company_ui.py" />
@@ -41,6 +43,7 @@
     <Content Include="assets\footer.png" />
     <Content Include="assets\logo.png" />
     <Content Include="assets\blurred_background.png" />
+    <Content Include="assets\world_map.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
